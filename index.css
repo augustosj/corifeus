@@ -1,7 +1,7 @@
 #menu ul {
-    padding:0px;
-    margin:0px;
-    background-color:#0000;
+    padding:50px;
+    
+    background-color:#000000;
     list-style:none;    
 }
 
@@ -14,16 +14,15 @@
     display: inline-block;
 
     /* visual do link */
-    background-color:#EDEDED;
-    color: #333;
+    background-color:#000000;
+    color: #ffffff;
     text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+
 }
 
 #menu ul li a:hover {
     background-color:#dd8126;
     color: #000000;
-    border-bottom:2px solid #000000;
 }
 
 
