@@ -1,13 +1,23 @@
-.circle {
-    background-color: #aaa;
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-  }
+@media (min-width: 768px) {
+    .logoo {
+        width:200px;
+        height:80px;
+        background:url("../../images/logo/800.png");
+    }
+}
 
-  .circle img {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+@media (min-width: 992px) {
+    .logoo {
+        width:400px;
+        height:220px;
+        background:url("../../images/logo/800.png");
+    }
+}
+
+@media (min-width: 1200px) {
+    .logoo {
+        width:800px;
+        height:440px;
+        background:url("../../images/logo/800.png");
+    }
+}
